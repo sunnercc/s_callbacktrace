@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4010CC932652405300281BE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4010CC922652405300281BE3 /* main.m */; };
+		4010CC9C2652406600281BE3 /* s_callbacktrace.c in Sources */ = {isa = PBXBuildFile; fileRef = 4010CC9B2652406600281BE3 /* s_callbacktrace.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		4010CC8F2652405300281BE3 /* s_callbacktrace */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = s_callbacktrace; sourceTree = BUILT_PRODUCTS_DIR; };
 		4010CC922652405300281BE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4010CC9A2652406600281BE3 /* s_callbacktrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = s_callbacktrace.h; sourceTree = "<group>"; };
+		4010CC9B2652406600281BE3 /* s_callbacktrace.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = s_callbacktrace.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		4010CC912652405300281BE3 /* s_callbacktrace */ = {
 			isa = PBXGroup;
 			children = (
+				4010CC9B2652406600281BE3 /* s_callbacktrace.c */,
+				4010CC9A2652406600281BE3 /* s_callbacktrace.h */,
 				4010CC922652405300281BE3 /* main.m */,
 			);
 			path = s_callbacktrace;
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4010CC9C2652406600281BE3 /* s_callbacktrace.c in Sources */,
 				4010CC932652405300281BE3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
